@@ -393,7 +393,7 @@ padding-top: 20px;
   font-weight: 600;
   border: none;
   cursor: pointer;
-  background: #FFF2E2;
+  background: #FFEBD1;
 }
 
 
@@ -405,6 +405,24 @@ padding-top: 20px;
   border: none;
   cursor: pointer;
   
+}
+
+#btn5{
+  width: 15%;
+  background: #FFF2E2;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+#btn6{
+  width: 15%;
+  background-color: #FFF2E2;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
 }
 
 
@@ -422,6 +440,17 @@ padding-top: 20px;
 }
 
 #cards2022{
+    /* border: 5px solid green; */
+    width: 100%;
+    height: 130vh;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #FFF2E2;
+}
+
+#cards2024{
     /* border: 5px solid green; */
     width: 100%;
     height: 130vh;
@@ -511,17 +540,17 @@ padding-top: 20px;
 
 @media screen and (max-width:550px)
 {
-   #cards2023, #cards2022{
+   #cards2023, #cards2022, #cards2024{
        display: flex;
        height:340vh;
        align-items: center;
    }
 
-   #cards2022{
+   #cards2022, #cards2024{
     display: none;
    }
 
-   .c2023, .c2022{
+   .c2023, .c2022, .c2024{
     width:300px;
    }
 }
@@ -563,12 +592,12 @@ h6{
   font-weight: 600;
   border: none;
   cursor: pointer;
-  background:#FFF2E2;
+  background: #FFEBD1;
 }
 
 #btn4{
   width: 15%;
-  background-color:#FFEBD1;
+  background-color: #FFEBD1;
   font-size: 30px;
   font-weight: 600;
   border: none;
@@ -587,6 +616,17 @@ h6{
 }
 
 #b_cards2022{
+    /* border:2px solid orangered; */
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background:#FFF2E2;
+    display: none;
+}
+
+#b_cards2024{
     /* border:2px solid orangered; */
     width: 100%;
     height: 130vh;
@@ -694,14 +734,14 @@ h6{
 
 @media all and (max-width:630px)
 {
-     #b_cards2022{
+     #b_cards2022, #b_cards2024{
       height:300vh;
      }
 }
 
 @media all and (max-width:550px)
 {
-   #btn1,#btn2,#btn3,#btn4{
+   #btn1,#btn2,#btn3,#btn4,#btn5,#btn6{
     font-size: 20px;
    }
 
@@ -1291,4 +1331,3 @@ width: 10px;
     display: none;
   }
 }
-
